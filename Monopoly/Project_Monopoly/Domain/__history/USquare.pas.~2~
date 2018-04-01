@@ -1,0 +1,15 @@
+unit USquare;
+
+interface
+
+type
+  TSquare=class
+  private
+    name:string;
+    nextSquare:TSquare;
+    index:integer;
+  end;
+
+implementation
+
+end.

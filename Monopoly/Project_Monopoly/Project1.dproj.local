@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.877,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.904,C:\Users\rebor\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\rebor\Documents\RAD Studio\Projects\USquare.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.034,C:\Users\rebor\Documents\RAD Studio\Projects\Project1.dproj=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.764,C:\Users\rebor\Documents\RAD Studio\Projects\UBoard.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\UBoard.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.946,C:\Users\rebor\Documents\RAD Studio\Projects\UDie.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\UDie.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.809,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.784,C:\Users\rebor\Documents\RAD Studio\Projects\Unit1.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\UI\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.784,C:\Users\rebor\Documents\RAD Studio\Projects\Unit1.dfm=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\UI\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.630,C:\Users\rebor\Documents\RAD Studio\Projects\Unit6.pas=C:\Users\rebor\Documents\RAD Studio\Projects\UPlayer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.324,C:\Users\rebor\Documents\RAD Studio\Projects\UPlayer.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\UPlayer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.784,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.090,C:\Users\rebor\Documents\RAD Studio\Projects\Unit5.pas=C:\Users\rebor\Documents\RAD Studio\Projects\UBoard.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.939,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.689,C:\Users\rebor\Documents\RAD Studio\Projects\Unit7.pas=C:\Users\rebor\Documents\RAD Studio\Projects\UMonopolyGame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.416,C:\Users\rebor\Documents\RAD Studio\Projects\UPiece.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\UPiece.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.502,C:\Users\rebor\Documents\RAD Studio\Projects\USquare.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\USquare.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.807,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.903,C:\Users\rebor\Documents\RAD Studio\Projects\Unit4.pas=C:\Users\rebor\Documents\RAD Studio\Projects\UDie.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.245,=C:\Users\Max\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,=C:\Users\Max\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.568,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.692,=C:\Users\rebor\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.755,C:\Users\rebor\Documents\RAD Studio\Projects\Unit3.pas=C:\Users\rebor\Documents\RAD Studio\Projects\UPiece.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.149,C:\Users\rebor\Documents\RAD Studio\Projects\UMonopolyGame.pas=D:\Учёба\Технология разработки программного обеспечения\Лабораторные\Lab_1\Monopoly\Project_Monopoly\Domain\UMonopolyGame.pas</Transaction>
+  </Transactions>
+</BorlandProject>

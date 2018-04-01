@@ -1,0 +1,15 @@
+unit UPiece;
+
+interface
+
+uses USquare;
+
+type
+  TPiece = class
+  private
+    location:TSquare;
+  end;
+
+implementation
+
+end.

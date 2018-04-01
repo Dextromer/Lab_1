@@ -1,0 +1,27 @@
+unit UBoard;
+
+interface
+
+uses SysUtils, Classes, Generics.Collections, Generics.Defaults, USquare;
+
+type
+  TBoard = class
+  const
+    SIZE=40;
+  private
+    squares:TList<TSquare>;
+    procedure buildSquares;
+    procedure build(i:integer);
+    procedure linkSquares;
+    procedure link(i:integer);
+  public
+    function getSquare(start:TSquare;distance:integer):TSquare;
+    function getStartSquare:TSquare;
+  published
+    constructor Create;
+  end;
+
+implementation
+
+
+end.
