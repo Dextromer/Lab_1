@@ -12,7 +12,8 @@ uses
   USalesLineItem in 'Domain\USalesLineItem.pas',
   UStore in 'Domain\UStore.pas',
   UAddress in 'src\UAddress.pas',
-  UItemID in 'src\UItemID.pas';
+  UItemID in 'src\UItemID.pas',
+  UConnect in 'src\UConnect.pas';
 
 {$R *.res}
 

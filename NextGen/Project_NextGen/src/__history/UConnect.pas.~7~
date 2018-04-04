@@ -1,0 +1,29 @@
+unit UConnect;
+
+interface
+
+uses Data.DB, Data.Win.ADODB;
+
+type
+  TConnection = class
+  private
+    ADOConnection: TADOConnection;
+    function GetAdoConnection:TADOConnection;
+    procedure SetAdoConnection;
+  end;
+
+implementation
+
+{ TConnection }
+
+function TConnection.GetAdoConnection: TADOConnection;
+begin
+  result:=ADOConnection;
+end;
+
+procedure TConnection.SetAdoConnection;
+begin
+
+end;
+
+end.

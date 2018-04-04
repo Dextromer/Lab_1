@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.04.04 10:47:44.522,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\TestUBoard.pas</Transaction>
+    <Transaction>2018.04.04 10:47:45.254,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\UBoard.pas</Transaction>
+    <Transaction>2018.04.04 10:48:03.171,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\USquare.pas</Transaction>
+    <Transaction>2018.04.04 10:49:56.663,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\TestUDie.pas</Transaction>
+    <Transaction>2018.04.04 10:49:56.810,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\UDie.pas</Transaction>
+    <Transaction>2018.04.04 10:50:24.071,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\TestUMonopolyGame.pas</Transaction>
+    <Transaction>2018.04.04 10:50:24.240,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\UMonopolyGame.pas</Transaction>
+    <Transaction>2018.04.04 10:50:34.337,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\UPlayer.pas</Transaction>
+    <Transaction>2018.04.04 10:50:46.449,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Domain\UPiece.pas</Transaction>
+    <Transaction>2018.04.04 10:51:30.881,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\TestUPiece.pas</Transaction>
+    <Transaction>2018.04.04 10:51:53.490,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\TestUPlayer.pas</Transaction>
+    <Transaction>2018.04.04 11:03:40.963,=C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

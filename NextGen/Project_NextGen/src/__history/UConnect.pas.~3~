@@ -1,0 +1,13 @@
+unit UConnect;
+
+interface
+
+type
+  TConnect = class
+  private
+    ADOConnection1: TADOConnection;
+  end;
+
+implementation
+
+end.

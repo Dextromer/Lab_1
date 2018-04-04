@@ -1,0 +1,12 @@
+unit UConnect;
+
+interface
+
+type
+  TConnect = class
+
+  end;
+
+implementation
+
+end.

@@ -50,6 +50,7 @@ type
     Panel40: TPanel;
     Button1: TButton;
     procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     MGame: TMonopolyGame;
   public
@@ -62,6 +63,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  MGame.playGame;
+end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin

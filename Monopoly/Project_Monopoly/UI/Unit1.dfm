@@ -341,5 +341,6 @@ object Form1: TForm1
     Height = 150
     Caption = 'Button1'
     TabOrder = 40
+    OnClick = Button1Click
   end
 end

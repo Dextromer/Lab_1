@@ -92,6 +92,10 @@
 			<DCCReference Include="Domain\UBoard.pas"/>
 			<DCCReference Include="Domain\UPlayer.pas"/>
 			<DCCReference Include="Domain\UMonopolyGame.pas"/>
+			<DCCReference Include="UI\UPlayers.pas">
+				<Form>Form2</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
@@ -145,6 +149,9 @@
 					<Platform value="Win64">False</Platform>
 					<Platform value="Win32">True</Platform>
 				</Platforms>
+				<UnitTesting>
+					<TestProjectName>C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Test\Project1Tests.dproj</TestProjectName>
+				</UnitTesting>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>

@@ -10,11 +10,11 @@ type
     SIZE=40;
   private
     squares:TList<TSquare>;
-    procedure buildSquares;
     procedure build(i:integer);
     procedure linkSquares;
     procedure link(i:integer);
   public
+    procedure buildSquares;
     function getSquare(start:TSquare;distance:integer):TSquare;
     function getStartSquare:TSquare;
   published

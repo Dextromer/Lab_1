@@ -28,7 +28,7 @@ begin
   self.name:=name;
   self.dice := TList<TDie>.create;
   self.dice.Add(dice);
-  self.dice.Add(dice);
+  //self.dice.Add(dice);
   self.board:=board;
   piece:=TPiece.create(board.getStartSquare);
 end;
