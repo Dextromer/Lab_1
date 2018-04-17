@@ -26,7 +26,8 @@ uses
   UPlayer in '..\Domain\UPlayer.pas',
   UPiece in '..\Domain\UPiece.pas',
   TestUPiece in 'TestUPiece.pas',
-  TestUPlayer in 'TestUPlayer.pas';
+  TestUPlayer in 'TestUPlayer.pas',
+  TestUSquare in 'TestUSquare.pas';
 
 {R *.RES}
 

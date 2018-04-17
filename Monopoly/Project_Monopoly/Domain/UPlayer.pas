@@ -21,6 +21,8 @@ type
 
 implementation
 
+uses Unit1;
+
 { TPlayer }
 
 constructor TPlayer.Create(name: string; dice: TDie; board: TBoard);
@@ -45,7 +47,7 @@ end;
 
 procedure TPlayer.takeTurn;
 var
-  rollTotal, i:integer;
+  rollTotal,i:integer;
   newLoc:TSquare;
 begin
   rollTotal:=0;

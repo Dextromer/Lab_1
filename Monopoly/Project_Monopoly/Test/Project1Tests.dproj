@@ -92,6 +92,7 @@
 			<DCCReference Include="..\Domain\UPiece.pas"/>
 			<DCCReference Include="TestUPiece.pas"/>
 			<DCCReference Include="TestUPlayer.pas"/>
+			<DCCReference Include="TestUSquare.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
@@ -150,6 +151,7 @@
 					<TestFramework>DUnit / Delphi Win32</TestFramework>
 					<TestRunner>GUI</TestRunner>
 					<SourceProjectName>C:\Users\студ.K201-06\Documents\Лепший\Lab_1\Monopoly\Project_Monopoly\Project1.dproj</SourceProjectName>
+					<TestProjectName/>
 				</UnitTesting>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
