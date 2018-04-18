@@ -5,17 +5,20 @@ interface
 uses UMoney;
 
 type
-  TPayment = class
+  IPayment = class
+    procedure Payment(CashTendered: TMoney); virtual; abstract;
+    function getAmount: TMoney; virtual; abstract;
+  end;
+
+  TPayment = class(IPayment)
   private
-    amount:TMoney;
+    amount: TMoney;
   public
-    procedure Payment(CashTendered:TMoney);
-    function getAmount:TMoney;
+    procedure Payment(CashTendered: TMoney); override;
+    function getAmount: TMoney; override;
   end;
 
 implementation
-
-
 
 { TPayment }
 

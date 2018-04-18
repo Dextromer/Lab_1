@@ -97,6 +97,9 @@
 			<DCCReference Include="src\UAddress.pas"/>
 			<DCCReference Include="src\UItemID.pas"/>
 			<DCCReference Include="src\UConnect.pas"/>
+			<DCCReference Include="src\UTaxPro.pas"/>
+			<DCCReference Include="src\UTaxMaster.pas"/>
+			<DCCReference Include="src\UItax.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>

@@ -9,7 +9,8 @@ uses
   UBoard in 'Domain\UBoard.pas',
   UPlayer in 'Domain\UPlayer.pas',
   UMonopolyGame in 'Domain\UMonopolyGame.pas',
-  UPlayers in 'UI\UPlayers.pas' {Form2};
+  UPlayers in 'UI\UPlayers.pas' {Form2},
+  UCup in 'Domain\UCup.pas';
 
 {$R *.res}
 

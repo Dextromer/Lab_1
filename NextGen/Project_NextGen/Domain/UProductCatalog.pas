@@ -5,12 +5,17 @@ interface
 uses UProductdescription, UItemID, UMoney, sysUtils, Generics.Collections, Generics.Defaults;
 
 type
-  TProductCatalog = class
+  IProductCatalog = class
+    procedure ProductCatalog; virtual; abstract;
+    function getProductDescription(id: TItemID): TProductdescription; virtual; abstract;
+  end;
+
+  TProductCatalog = class(IProductCatalog)
   private
-    descriptions:Tdictionary<TItemID, TProductdescription>;
+    descriptions: Tdictionary<TItemID, IProductdescription>;
   public
-    procedure ProductCatalog;
-    function getProductDescription(id:TItemID):TProductDescription;
+    procedure ProductCatalog; override;
+    function getProductDescription(id: TItemID): TProductdescription; override;
   published
     constructor create;
   end;

@@ -2,7 +2,7 @@ unit USale;
 
 interface
 
-uses USalesLineItem, UPayment, UMoney,UProductDescription, SysUtils, Generics.Collections, Generics.Defaults;
+uses USalesLineItem, UPayment, UMoney,UProductDescription, UITax, SysUtils, Generics.Collections, Generics.Defaults;
 
 type
 
@@ -47,6 +47,7 @@ end;
 function TSale.getTotal: Tmoney;
 var
   total,subTotal:Tmoney;
+  iTax:TITax;
   SalesLIneItem:TSalesLineItem;
 begin
   total:=0;
@@ -55,7 +56,7 @@ begin
     subTotal:=SalesLineItem.getSubTotal;
     total:=total + subtotal;
   end;
-  result:=total;
+  result:=total-iTax;
 end;
 
 function TSale.isComplete: boolean;

@@ -13,7 +13,10 @@ uses
   UStore in 'Domain\UStore.pas',
   UAddress in 'src\UAddress.pas',
   UItemID in 'src\UItemID.pas',
-  UConnect in 'src\UConnect.pas';
+  UConnect in 'src\UConnect.pas',
+  UTaxPro in 'src\UTaxPro.pas',
+  UTaxMaster in 'src\UTaxMaster.pas',
+  UItax in 'src\UItax.pas';
 
 {$R *.res}
 
