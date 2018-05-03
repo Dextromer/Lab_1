@@ -12,7 +12,7 @@ type
 
   TProductCatalog = class(IProductCatalog)
   private
-    descriptions: Tdictionary<TItemID, IProductdescription>;
+    descriptions: Tdictionary<TItemID, TProductdescription>;
   public
     procedure ProductCatalog; override;
     function getProductDescription(id: TItemID): TProductdescription; override;

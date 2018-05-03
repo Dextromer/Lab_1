@@ -14,9 +14,10 @@ uses
   UAddress in 'src\UAddress.pas',
   UItemID in 'src\UItemID.pas',
   UConnect in 'src\UConnect.pas',
-  UTaxPro in 'src\UTaxPro.pas',
-  UTaxMaster in 'src\UTaxMaster.pas',
-  UItax in 'src\UItax.pas';
+  UTaxLineItem in 'Domain\UTaxLineItem.pas',
+  UGoodAsGoldTaxProAdapter in 'Polymorphism\UGoodAsGoldTaxProAdapter.pas',
+  UItaxCalculatorAdapter in 'Polymorphism\UItaxCalculatorAdapter.pas',
+  UTaxMasterAdapter in 'Polymorphism\UTaxMasterAdapter.pas';
 
 {$R *.res}
 
