@@ -17,7 +17,10 @@ uses
   UTaxLineItem in 'Domain\UTaxLineItem.pas',
   UGoodAsGoldTaxProAdapter in 'Polymorphism\UGoodAsGoldTaxProAdapter.pas',
   UItaxCalculatorAdapter in 'Polymorphism\UItaxCalculatorAdapter.pas',
-  UTaxMasterAdapter in 'Polymorphism\UTaxMasterAdapter.pas';
+  UTaxMasterAdapter in 'Polymorphism\UTaxMasterAdapter.pas',
+  UAbsoluteDiscountPricingStrategy in 'Strategy\UAbsoluteDiscountPricingStrategy.pas',
+  UPercentDiscountPricingStrategy in 'Strategy\UPercentDiscountPricingStrategy.pas',
+  UISalePricingStrategy in 'Strategy\UISalePricingStrategy.pas';
 
 {$R *.res}
 

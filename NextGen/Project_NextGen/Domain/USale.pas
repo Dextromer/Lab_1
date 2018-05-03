@@ -5,23 +5,32 @@ interface
 uses USalesLineItem, UPayment, UMoney,UProductDescription, SysUtils, Generics.Collections, Generics.Defaults;
 
 type
+  ISale = class
+    function getBalance: TMoney; virtual; abstract;
+    procedure becomeComplete; virtual; abstract;
+    function isComplete: boolean; virtual; abstract;
+    procedure makeLineItem(desc: TProductDescription; quantity: integer); virtual; abstract;
+    function getTotal: TMoney; virtual; abstract;
+    procedure makePayment(cashTendered: TMoney); virtual; abstract;
+  end;
 
-  TSale = class
+  TSale = class(ISale)
   private
     lineitems: Tlist<TSalesLineItem>;
-    data:TDate;
-    Complete:boolean;
-    payment:TPayment;
+    data: TDate;
+    Complete: boolean;
+    payment: TPayment;
   published
     constructor create;
   public
-    function getBalance:TMoney;
-    procedure becomeComplete;
-    function  isComplete:boolean;
-    procedure makeLineItem(desc:TProductDescription; quantity: integer);
-    function getTotal:Tmoney;
-    procedure makePayment(cashTendered:TMoney);
+    function getBalance: TMoney; override;
+    procedure becomeComplete; override;
+    function isComplete: boolean; override;
+    procedure makeLineItem(desc: TProductDescription; quantity: integer); override;
+    function getTotal: TMoney; override;
+    procedure makePayment(cashTendered: TMoney); override;
   end;
+
 implementation
 
 uses UItaxCalculatorAdapter;

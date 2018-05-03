@@ -10,7 +10,10 @@ uses
   UPlayer in 'Domain\UPlayer.pas',
   UMonopolyGame in 'Domain\UMonopolyGame.pas',
   UPlayers in 'UI\UPlayers.pas' {Form2},
-  UCup in 'Domain\UCup.pas';
+  UCup in 'Domain\UCup.pas',
+  UIncomeTaxSquare in 'Polymorphism\UIncomeTaxSquare.pas',
+  URegularSquare in 'Polymorphism\URegularSquare.pas',
+  UGoSquare in 'Polymorphism\UGoSquare.pas';
 
 {$R *.res}
 

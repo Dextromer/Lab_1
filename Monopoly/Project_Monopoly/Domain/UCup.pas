@@ -2,26 +2,30 @@ unit UCup;
 
 interface
 
-uses UDie;
+uses Generics.Collections, Generics.Defaults, UDie;
 
 type
-  TCup = class
+  ICup = class
+    function getTotal(var dice: TList<TDie>): integer; virtual; abstract;
+  end;
+
+  TCup = class(ICup)
   public
-    function getTotal:integer;
+    function getTotal(var dice: TList<TDie>): integer; override;
   end;
 
 implementation
 
 { TCup }
 
-function TCup.getTotal: integer;
+function TCup.getTotal (var dice: TList<TDie>): integer;
 var
-  rollTotal:integer;
+  rollTotal, i:integer;
 begin
   rollTotal:=0;
   for i:=0 to dice.Count-1 do begin
     dice.Items[i].roll;
-    rollTotal:=rollTotal+self.dice.Items[i].getFaceValue;
+    rollTotal:=rollTotal+dice.Items[i].getFaceValue;
   end;
 end;
 
