@@ -61,6 +61,7 @@ type
 
 var
   Form1: TForm1;
+  typ:string;
 
 implementation
 
@@ -69,6 +70,7 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   MGame.playRound;
+  typ:=MGame.getPlayers.First.GetLocation.getName;
   Label1.Caption := MGame.getPlayers.First.getName + ' находится на ' + MGame.getPlayers.First.GetLocation.getName;
   Label2.Caption := MGame.getPlayers.Last.getName + ' находится на ' + MGame.getPlayers.Last.GetLocation.getName;
 end;

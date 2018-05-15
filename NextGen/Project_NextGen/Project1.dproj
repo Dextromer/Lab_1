@@ -104,6 +104,25 @@
 			<DCCReference Include="Strategy\UAbsoluteDiscountPricingStrategy.pas"/>
 			<DCCReference Include="Strategy\UPercentDiscountPricingStrategy.pas"/>
 			<DCCReference Include="Strategy\UISalePricingStrategy.pas"/>
+			<DCCReference Include="UI\Unit2.pas">
+				<Form>Form2</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
+			<DCCReference Include="UI\Unit3.pas">
+				<Form>Form3</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
+			<DCCReference Include="src\UMyADOConnection.pas"/>
+			<DCCReference Include="src\UPersistentStorage.pas"/>
+			<DCCReference Include="Adapter\UGreatNorthernAccountingAdapter.pas"/>
+			<DCCReference Include="Adapter\UIAccountingAdapter.pas"/>
+			<DCCReference Include="Adapter\UICreditAuthorizationServiceAdapter.pas"/>
+			<DCCReference Include="Adapter\USAPAccountingAdapter.pas"/>
+			<DCCReference Include="Adapter\UIInventoryAdapter.pas"/>
+			<DCCReference Include="Composite\UCompositeBestForCustomer.pas"/>
+			<DCCReference Include="Composite\UCompositeBestForStore.pas"/>
+			<DCCReference Include="Composite\UCompositePricingStrategy.pas"/>
+			<DCCReference Include="Domain\UPricingStrategyFactory.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>

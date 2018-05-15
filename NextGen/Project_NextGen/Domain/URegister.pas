@@ -9,6 +9,7 @@ type
     procedure enteritem(id: TItemID; quantity: integer); virtual; abstract;
     procedure makenewsale; virtual; abstract;
     procedure makepayment(cashtendered: TMoney); virtual; abstract;
+    function getTotalSale: TMoney; virtual; abstract;
   end;
 
   TRegister = class(IRegister)
@@ -22,6 +23,7 @@ type
     procedure enteritem(id: TItemID; quantity: integer); override;
     procedure makenewsale; override;
     procedure makepayment(cashtendered: TMoney); override;
+    function getTotalSale: TMoney; override;
   end;
 
 implementation
@@ -45,6 +47,11 @@ begin
   desc:=TProductDescription.Create;
   desc:=Catalog.getProductDescription(id);
   CurrentSale.makelineitem(desc,quantity);
+end;
+
+function TRegister.getTotalSale: TMoney;
+begin
+  result:=currentSale.getTotal;
 end;
 
 procedure TRegister.makenewsale;

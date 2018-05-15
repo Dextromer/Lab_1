@@ -9,7 +9,7 @@ uses
 type
   TForm2 = class(TForm)
     Button1: TButton;
-     procedure Button1Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
     MonopolyGame:TmonopolyGame;

@@ -5,16 +5,16 @@ interface
 uses SysUtils, Generics.Collections, Generics.Defaults, USale, UTaxLineItem, UITaxCalculatorAdapter;
 
 type
-  TGoodAsGoldTaxPro = class(TITaxCalculatorAdapter)
+  TGoodAsGoldTaxProAdapter = class(TITaxCalculatorAdapter)
   public
     function getTaxes(Sale:TSale): TList<TTaxLineItem>; override;
   end;
 
 implementation
 
-{ TGoodAsGoldTaxPro }
+{ TGoodAsGoldTaxProAdapter }
 
-function TGoodAsGoldTaxPro.getTaxes(Sale: TSale): TList<TTaxLineItem>;
+function TGoodAsGoldTaxProAdapter.getTaxes(Sale: TSale): TList<TTaxLineItem>;
 begin
   //
 end;
